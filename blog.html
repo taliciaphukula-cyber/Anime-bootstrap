@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Anime World</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="C:\Users\talic\Documents\bootstrap-website\images\TAGAFR~1.JPG">
+  <style>
+    body {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .blog-card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+    .blog-card:hover {
+      transform: translateY(-5px);
+    }
+    .blog-date {
+      color: #ff6b6b;
+      font-weight: bold;
+    }
+    .anime-tag {
+      background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+      color: white;
+      padding: 5px 15px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        Anime World
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="text-center text-white mb-4">Anime & Dev Blog</h1>
+    <p class="text-center text-white mb-5">Sharing my journey through anime and web development</p>
+
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <!-- Blog Post 1 -->
+        <article class="blog-card">
+          <span class="anime-tag">🎌 Anime & Coding</span>
+          <h2>Building My First Anime Website</h2>
+          <p class="blog-date">📅 February 9, 2026</p>
+          <p>Today was an exciting day! I built my first multi-page website dedicated to anime. Inspired by sites like MyAnimeList, I wanted to create a space where fellow fans could explore and share their love for anime. Using HTML and CSS, I structured pages for home, about, projects, gallery, blog, and contact. The best part? Adding anime-themed colors and gradients that remind me of my favorite series!</p>
+        </article>
+
+        <!-- Blog Post 2 -->
+        <article class="blog-card">
+          <span class="anime-tag">🎨 CSS & Design</span>
+          <h2>CSS Styling: Making It Look Like Anime</h2>
+          <p class="blog-date">📅 February 10, 2026</p>
+          <p>CSS is like the animation studio that brings the story to life! Today I learned how to use gradients, shadows, and hover effects to make my website pop. I created a color scheme inspired by popular anime - purples and pinks like from "Demon Slayer" and blues like from "One Piece". The progress bars on my about page now look like power levels from "Dragon Ball Z"!</p>
+        </article>
+
+        <!-- Blog Post 3 -->
+        <article class="blog-card">
+          <span class="anime-tag">⚡ JavaScript Magic</span>
+          <h2>Adding Interactivity Like Anime Powers</h2>
+          <p class="blog-date">📅 February 12, 2026</p>
+          <p>JavaScript is like having special abilities in an anime! Today I added interactive features to my site. Buttons that respond to clicks, forms that validate input, and even a music player for anime soundtracks. I'm planning to add more features like a random anime quote generator and a character search function. The possibilities are endless!</p>
+        </article>
+
+        <!-- Blog Post 4 -->
+        <article class="blog-card">
+          <span class="anime-tag">🎵 Anime Music</span>
+          <h2>Current Anime OST Playlist</h2>
+          <p class="blog-date">📅 February 19, 2026</p>
+          <p>Here's some anime music I've been listening to while coding:</p>
+          <audio controls class="w-100 mb-3">
+            <source src="C:\Users\talic\Documents\bootstrap-website\audio\DAN DA DAN - Opening _ Otonoke de Creepy Nuts.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          <ul>
+            <li>🔥 "Gurenge" - LiSA (Demon Slayer OP)</li>
+            <li>🌊 "We Are!" - Hiroshi Kitadani (One Piece OP)</li>
+            <li>⚡ "The Hero" - JAM Project (One Punch Man OP)</li>
+          </ul>
+        </article>
+
+        <!-- Blog Post 5 -->
+        <article class="blog-card">
+          <span class="anime-tag">📖 Light Novel Corner</span>
+          <h2>What I'm Reading Now</h2>
+          <p class="blog-date">📅 February 20, 2026</p>
+          <p>Currently diving into "Mushoku Tensei: Jobless Reincarnation" light novel series. The world-building is incredible! It's inspiring me to think about creating my own anime-style web series or game someday. The detailed descriptions of magic systems and character development are giving me ideas for future projects.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center p-4 mt-5">
+    <p class="mb-0">&copy; 2026 Anime World | Created by Thero P. | Powered by Bootstrap 5</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

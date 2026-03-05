@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Anime World</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="C:\Users\talic\Documents\bootstrap-website\images\TAGAFR~1.JPG">
+  <style>
+    body {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .project-card {
+      transition: all 0.3s;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+    }
+    .project-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+    .badge-anime {
+      background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      Anime World
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <h2 class="text-center mb-2 text-white">Our Anime Projects</h2>
+  <p class="text-center text-white mb-5">Check out our latest anime-related projects and initiatives</p>
+
+  <div class="row g-4">
+    <div class="col-lg-4 col-md-6">
+      <div class="card project-card h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="card-title mb-0">Anime Fan Wiki</h5>
+            <span class="badge badge-anime">Live</span>
+          </div>
+          <p class="card-text">A comprehensive wiki platform for anime fans to contribute and access information about their favorite series, characters, and episodes.</p>
+          <div class="mb-3">
+            <span class="badge bg-primary">React</span>
+            <span class="badge bg-success">Node.js</span>
+            <span class="badge bg-info">MongoDB</span>
+          </div>
+          <a href="#" class="btn btn-primary w-100">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card project-card h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="card-title mb-0">Anime Streaming App</h5>
+            <span class="badge badge-anime">Beta</span>
+          </div>
+          <p class="card-text">A modern streaming platform for anime with personalized recommendations, watchlists, and community features.</p>
+          <div class="mb-3">
+            <span class="badge bg-primary">Flutter</span>
+            <span class="badge bg-success">Firebase</span>
+            <span class="badge bg-info">GraphQL</span>
+          </div>
+          <a href="#" class="btn btn-primary w-100">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card project-card h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="card-title mb-0">Anime Quiz Game</h5>
+            <span class="badge badge-anime">New</span>
+          </div>
+          <p class="card-text">Test your anime knowledge with this interactive quiz game featuring questions from various anime series.</p>
+          <div class="mb-3">
+            <span class="badge bg-primary">Vue.js</span>
+            <span class="badge bg-success">Express</span>
+            <span class="badge bg-info">Socket.io</span>
+          </div>
+          <a href="#" class="btn btn-primary w-100">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card project-card h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="card-title mb-0">Anime Character Database</h5>
+            <span class="badge badge-anime">Live</span>
+          </div>
+          <p class="card-text">A comprehensive database of anime characters with detailed information, voice actors, and appearances.</p>
+          <div class="mb-3">
+            <span class="badge bg-primary">Python</span>
+            <span class="badge bg-success">Django</span>
+            <span class="badge bg-info">PostgreSQL</span>
+          </div>
+          <a href="#" class="btn btn-primary w-100">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card project-card h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="card-title mb-0">Anime News Aggregator</h5>
+            <span class="badge badge-anime">Dev</span>
+          </div>
+          <p class="card-text">A news aggregator that collects and displays the latest anime news from various sources.</p>
+          <div class="mb-3">
+            <span class="badge bg-primary">Next.js</span>
+            <span class="badge bg-success">Python</span>
+            <span class="badge bg-info">Redis</span>
+          </div>
+          <a href="#" class="btn btn-primary w-100">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card project-card h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="card-title mb-0">Anime Community Forum</h5>
+            <span class="badge badge-anime">Planning</span>
+          </div>
+          <p class="card-text">A community-driven forum for anime enthusiasts to discuss, share, and connect.</p>
+          <div class="mb-3">
+            <span class="badge bg-primary">PHP</span>
+            <span class="badge bg-success">Laravel</span>
+            <span class="badge bg-info">MySQL</span>
+          </div>
+          <a href="#" class="btn btn-primary w-100">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-dark text-white text-center p-4 mt-5">
+  <p class="mb-0">&copy; 2026 Anime World | Created by Thero Phukula | Powered by Bootstrap 5</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
